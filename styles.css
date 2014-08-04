@@ -1,0 +1,61 @@
+body{
+  font-family: 'Open Sans', helvetica;
+  font-weight: lighter;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+header h1{
+  margin: 0;
+  font-size: 95px;
+  letter-spacing: 10px;
+  color: lightgrey;
+}
+header h2{
+  margin: 0;
+  font-size: 50px;
+  color: grey;
+  letter-spacing: 4px;
+}
+
+
+.main div{
+   text-align: center;
+   display: inline-block;
+}
+
+.userInfo{
+  width: 300px;
+  background-color: lightgrey;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+.userInfo ul{
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  display: inline-block;
+
+}
+
+.userInfo li{
+  text-align: left;
+  font-size: 18px;
+}
+
+.userInfo img{
+  width: 200px;
+  padding-top: 15px;
+}
+
+.userInfo a{
+  color: grey;
+}
+
+.userInfo a:hover{
+  color: white;
+}
